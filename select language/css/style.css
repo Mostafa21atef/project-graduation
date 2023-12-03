@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.radio-group {
+ 
+    align-items: center;
+    margin: auto;
+    width: 25%;
+  }
+ 
+button{
+    transform: translateY(250px);
+    background-color: #216335;
+    padding: 10px;
+    color: white;
+    width: 250px;
+    border-radius: 50px;
+    cursor: pointer;
+}

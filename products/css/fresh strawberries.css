@@ -1,0 +1,48 @@
+.intro{
+    background-image: url("../imgs/vegetables.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+    margin: 0px 10px ;
+    position: relative;
+}
+.intro p {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+}
+.button1{
+    color: #2B894E;
+    position: absolute;
+    padding: 15px;
+    width: 20%;
+    background-color: white;
+    border-radius:50px ;
+    font-weight: bolder;
+    font-size: 40px;
+    left: 75%;
+    top: 60%;
+}
+.addToCart{
+    width: 100%;
+    background-color: #2B894E;
+    color: white;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.ADD{
+    width: 20%;
+    margin: auto;
+}
+@media only screen and (max-width: 1000px) {
+    .button1{
+        top: 35%;
+        
+    }
+  }

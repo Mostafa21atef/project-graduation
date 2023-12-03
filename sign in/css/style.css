@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;   
+    overflow: hidden; 
+}
+body{
+    background-image: url(../imgs/Grocery.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    
+   height: 85vh;
+border-radius: 50px;
+position: relative;
+}
+.bicon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.icon{
+    color: #BDC5B5;
+}
+.sign{
+    font-size: 25px;
+}
+button{
+    background-color: #216335;
+    padding: 10px;
+    border-radius: 30px;
+}
+.forget{
+    width: 15%;
+}
+.forget a{
+    color: #216335;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+.inform{
+    border-radius: 50px;
+}

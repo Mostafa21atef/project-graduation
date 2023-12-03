@@ -1,0 +1,77 @@
+.intro{
+    background-image: url("../imgs/vegetables.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+    margin: 0px 10px ;
+    position: relative;
+}
+.intro p {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+}
+button{
+    color: #2B894E;
+    position: absolute;
+    padding: 15px;
+    width: 20%;
+    background-color: white;
+    border-radius:50px ;
+    font-weight: bolder;
+    font-size: 40px;
+    left: 75%;
+    top: 60%;
+}
+span{
+    text-decoration: line-through;
+}
+.price{
+    font-size: 30px;
+}
+.border{
+    border-radius: 30px;
+}
+a{
+    color: #2B894E;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #2B894E;
+}
+.add{
+    margin-left: 80%;
+    width: 50px;
+    height: 50px;
+    background-color: #3ed475;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.foot{
+    margin: auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #2B894E;
+}
+.icons{
+    background-color: #D9D9D9;
+}
+@media only screen and (max-width: 1000px) {
+    button{
+        top: 35%;
+        
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .div2{
+        margin-top: 10px;
+    }
+    .div4{
+        margin-top: 10px;
+    }
+  }
